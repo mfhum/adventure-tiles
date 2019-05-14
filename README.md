@@ -1,7 +1,7 @@
-## adventure-tiles
+# adventure-tiles
 a school project
 
-# Sprint-Plan 
+## Sprint-Plan 
 - 14.5.19: Sprintplanning, GitHub, Populate UML
 - 21.5.19: Mockups, Test Interfaces, Globals
 - 28.5.19: MainLoop, Implement Mockup Prototype, Testing
