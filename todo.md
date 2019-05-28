@@ -2,7 +2,6 @@
 - Populate UML
 - Globals
 - Test Interfaces
-- MainLoop 
 - Implement Mockup Prototype
 - Testing
 - Collision-detection
@@ -16,3 +15,4 @@
 - GitHub
 - Mockups
 ### Doing
+- MainLoop 
