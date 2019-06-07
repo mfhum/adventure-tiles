@@ -14,7 +14,7 @@
 - GitHub
 - Mockups
 - KeyEvents
-### Doing
 - Positioning
+### Doing
 - MainLoop 
 - Populate UML
