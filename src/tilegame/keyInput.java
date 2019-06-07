@@ -21,6 +21,7 @@ public class keyInput implements KeyListener{
 			switch(Character.toLowerCase(e.getKeyChar())) {
 			case 'w':
 				mView.setDirection(1);
+				p.setY(p.getY() + 1);
 				break;
 			case 'a':
 				mView.setDirection(2);
