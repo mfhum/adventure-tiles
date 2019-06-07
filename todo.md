@@ -1,5 +1,4 @@
 ### To-Do
-- Populate UML
 - Globals
 - Test Interfaces
 - Implement Mockup Prototype
@@ -14,5 +13,7 @@
 - Sprintplanning 
 - GitHub
 - Mockups
+- KeyEvents
 ### Doing
 - MainLoop 
+- Populate UML
