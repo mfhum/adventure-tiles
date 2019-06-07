@@ -56,7 +56,6 @@ public class mainView extends JFrame{
 	public void setDirection(int _mNr) {
 		switch(_mNr) {
 			case 1:
-				this.direction.setText("Up");
 				this.position = "Up";
 				setDirText(this.position);
 				break;
