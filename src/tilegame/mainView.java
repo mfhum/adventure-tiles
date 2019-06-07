@@ -47,29 +47,31 @@ public class mainView extends JFrame{
 		setTitle("TileGame");
 		setSize(this.vWidth, this.vHeight);
 		setResizable(false);
-		add(direction);
-		setVisible(true);
+		this.add(direction, BorderLayout.CENTER);
 		// adding keyListener from keyInput()
-		addKeyListener(new keyInput());
+		addKeyListener(new keyInput(this));
+		setVisible(true);
+		this.direction.setVisible(true);
 	}
 	public void setDirection(int _mNr) {
 		switch(_mNr) {
-		case 1:
-			this.position = "Up";
-			setDirText(this.position);
-			break;
-		case 2:
-			this.position = "Left";
-			setDirText(this.position);
-			break;
-		case 3:
-			this.position = "Down";
-			setDirText(this.position);
-			break;
-		case 4:
-			this.position = "Right";
-			setDirText(this.position);
-			break;
+			case 1:
+				this.direction.setText("Up");
+				this.position = "Up";
+				setDirText(this.position);
+				break;
+			case 2:
+				this.position = "Left";
+				setDirText(this.position);
+				break;
+			case 3:
+				this.position = "Down";
+				setDirText(this.position);
+				break;
+			case 4:
+				this.position = "Right";
+				setDirText(this.position);
+				break;
 		}
 	}
 	private void setDirText(String _pos) {
