@@ -1,5 +1,4 @@
 ### To-Do
-- Test Interfaces
 - Collision-detection
 - TESTING
 - Presentable tile based Java Project
@@ -12,9 +11,9 @@
 - tile-design
 - first prototype
 - Implement Mockup Prototype
-### Doing
 - MainLoop 
+- animations
+### Doing
 - Populate UML
 - Globals
 - Testing
-- animations
