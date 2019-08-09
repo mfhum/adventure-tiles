@@ -17,6 +17,3 @@
 - Populate UML
 - Globals
 - Testing
-```Java
-sysout
-```
